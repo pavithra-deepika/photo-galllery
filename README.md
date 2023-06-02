@@ -53,8 +53,8 @@
     - <strong>align-items</strong>
         - The align-items property is used to align the flex items.Vertically aligns the flex items when the items do not use all available space on the cross-axis
         <br />
-        center: value aligns the flex items in the middle of the container.
-        <br />
+            - center: value aligns the flex items in the middle of the container.
+
         - The flex-start value aligns the flex items at the top of the container.<br />
         - The flex-end value aligns the flex items at the bottom of the container.<br />
         - The stretch value stretches the flex items to fill the container.<br />
