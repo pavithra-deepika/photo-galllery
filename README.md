@@ -1,5 +1,6 @@
 
-<h1 align="center"> Flexbox Photo Gallery  </h1>
+<div style= padding: 25px >
+<h1 align="center"> Flexbox Photo Gallery</h1>
 
 ## Getting Started
 
@@ -53,12 +54,12 @@
     - <strong>align-items</strong>
         - The align-items property is used to align the flex items.Vertically aligns the flex items when the items do not use all available space on the cross-axis
         <br />
-            - center: value aligns the flex items in the middle of the container.
-
-        - The flex-start value aligns the flex items at the top of the container.<br />
-        - The flex-end value aligns the flex items at the bottom of the container.<br />
-        - The stretch value stretches the flex items to fill the container.<br />
-        - The baseline value aligns the flex items such as their baselines aligns.<br />
+        - <strong>center</strong>center: value aligns the flex items in the middle of the container.
+        <br />
+        - <strong>flex-start</strong>The flex-start value aligns the flex items at the top of the container.<br />
+        - <strong>flex-end</strong>The flex-end value aligns the flex items at the bottom of the container.<br />
+        - T<strong>stretch</strong>he stretch value stretches the flex items to fill the container.<br />
+        - <strong>baseline</strong>The baseline value aligns the flex items such as their baselines aligns.<br />
        syntax = .flex-container {
   <br /> display: flex;
   <br />height: 200px;
@@ -92,11 +93,12 @@
     scale-down - the image is scaled down to the smallest version of none or contain.
 
         
-
+</div>
 
 
 ## Deploy on Vercel
 https://photo-galllery-lttkza79o-pavithra-deepika.vercel.app/
+
 ## Built by
 
 👤 **Bavithra**
