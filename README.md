@@ -1,4 +1,3 @@
-
 <div style= padding: 25px >
 <h1 align="center"> Flexbox Photo Gallery</h1>
 
@@ -51,20 +50,22 @@
       - The space-around value displays the flex items with space before, between, and after the lines<br /> (  justify-content: space-around;)
       - The space-between value displays the flex items with space between the lines:<br />
       (  justify-content: space-between;)
-      -  <strong>align-items</strong>
-        - The align-items property is used to align the flex items.Vertically aligns the flex items when the items do not use all available space on the cross-axis
-        <br />
-        -  <strong>center</strong>center: value aligns the flex items in the middle of the container.
-        <br />
-        - <strong>flex-start</strong>The flex-start value aligns the flex items at the top of the container.<br />
-        -  <strong>flex-end</strong>The flex-end value aligns the flex items at the bottom of the container.<br />
-        - T<strong>stretch</strong>he stretch value stretches the flex items to fill the container.<br />
-        - <strong>baseline</strong>The baseline value aligns the flex items such as their baselines aligns.<br />
-        - syntax = .flex-container {
-        - <br /> display: flex;
-        -  <br />height: 200px;
-        - <br />align-items: baseline;
-}
+      
+
+
+
+
+       - <strong>align-items</strong>
+       - the align-items property is used to align the flex items.Vertically aligns the flex items when the items do not use all available space on the cross-axis
+       <br />
+       - center value aligns the flex items in the middle of the container.
+      <br /> 
+      - The flex-start value aligns the flex items at the top of the container
+      <br /> 
+      - The flex-end value aligns the flex items at the bottom of the container<br /> 
+      - The stretch value stretches the flex items to fill the container<br />
+      - The baseline value aligns the flex items such as their baselines aligns.<br />
+      - syntax = { aligin-items: baseline;}
     - <strong>align-content</strong>
        - The align-content property is used to align the flex lines.
        Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.
