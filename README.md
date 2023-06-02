@@ -50,40 +50,30 @@
       - The space-around value displays the flex items with space before, between, and after the lines<br /> (  justify-content: space-around;)
       - The space-between value displays the flex items with space between the lines:<br />
       (  justify-content: space-between;)
-      
-
-
-
-
-       - <strong>align-items</strong>
-       - the align-items property is used to align the flex items.Vertically aligns the flex items when the items do not use all available space on the cross-axis
-       <br />
-       - center value aligns the flex items in the middle of the container.
-      <br /> 
-      - The flex-start value aligns the flex items at the top of the container
-      <br /> 
+   - <strong>align-items</strong>
+      - the align-items property is used to align the flex items.Vertically aligns the flex items when the items do not use all available space on the cross-axis<br />
+      - center value aligns the flex items in the middle of the container.<br /> 
+      - The flex-start value aligns the flex items at the top of the container <br /> 
       - The flex-end value aligns the flex items at the bottom of the container<br /> 
       - The stretch value stretches the flex items to fill the container<br />
       - The baseline value aligns the flex items such as their baselines aligns.<br />
       - syntax = { aligin-items: baseline;}
-    - <strong>align-content</strong>
-       - The align-content property is used to align the flex lines.
-       Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.
-       - <strong> Space-between : </strong>The space-between value displays the flex lines with equal space between them.
-       - <strong>Space-around : </strong>The space-around value displays the flex lines with space before, between, and after them.
-       - <strong> stretch : </strong>The stretch value stretches the flex lines to take up the remaining space (this is default).
-       - <strong> center : </strong>The center value displays the flex lines in the middle of the container.
-       - <strong> flex-start : </strong>The flex-start value displays the flex lines at the start of the container.
-       - <strong> flex-end : </strong>The flex-end value displays the flex lines at the end of the container.
-       <br>
-       - <strong> syntax = .flex-container {
-       -  <br /> display: flex;
-       - <br />height: 600px;
-       - <br />flex-wrap: wrap;
-      -  <br /> align-content: flex-end;
+  - <strong>align-content</strong>
+    - The align-content property is used to align the flex lines.Modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.<br />
+    - <strong> Space-between : </strong>The space-between value displays the flex lines with equal space between them.<br />
+    - <strong>Space-around : </strong>The space-around value displays the flex lines with space before, between, and after them.<br />
+    - <strong> stretch : </strong>The stretch value stretches the flex lines to take up the remaining space (this is default).<br />
+    - <strong> center : </strong>The center value displays the flex lines in the middle of the container.<br />
+    - <strong> flex-start : </strong>The flex-start value displays the flex lines at the start of the container.<br />
+    - <strong> flex-end : </strong>The flex-end value displays the flex lines at the end of the container.<br />
+    - <strong> syntax = .flex-container { <br />
+         display: flex;<br />
+         height: 600px;<br />
+        flex-wrap: wrap;<br />
+       align-content: flex-end;<br />
 }</strong>
-    - <strong>display </strong>
-    	- Specifies the type of box used for an HTML element
+- <strong>display </strong>
+      - Specifies the type of box used for an HTML element
 
     - <strong> object-fit </strong>
       - The CSS object-fit property is used to specify how an img or video should be resized to fit its container.
