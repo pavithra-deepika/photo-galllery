@@ -51,19 +51,19 @@
       - The space-around value displays the flex items with space before, between, and after the lines<br /> (  justify-content: space-around;)
       - The space-between value displays the flex items with space between the lines:<br />
       (  justify-content: space-between;)
-    - <strong>align-items</strong>
+      -  <strong>align-items</strong>
         - The align-items property is used to align the flex items.Vertically aligns the flex items when the items do not use all available space on the cross-axis
         <br />
-        - <strong>center</strong>center: value aligns the flex items in the middle of the container.
+        -  <strong>center</strong>center: value aligns the flex items in the middle of the container.
         <br />
         - <strong>flex-start</strong>The flex-start value aligns the flex items at the top of the container.<br />
-        - <strong>flex-end</strong>The flex-end value aligns the flex items at the bottom of the container.<br />
+        -  <strong>flex-end</strong>The flex-end value aligns the flex items at the bottom of the container.<br />
         - T<strong>stretch</strong>he stretch value stretches the flex items to fill the container.<br />
         - <strong>baseline</strong>The baseline value aligns the flex items such as their baselines aligns.<br />
-       syntax = .flex-container {
-  <br /> display: flex;
-  <br />height: 200px;
-  <br />align-items: baseline;
+        - syntax = .flex-container {
+        - <br /> display: flex;
+        -  <br />height: 200px;
+        - <br />align-items: baseline;
 }
     - <strong>align-content</strong>
        - The align-content property is used to align the flex lines.
@@ -75,11 +75,11 @@
        - <strong> flex-start : </strong>The flex-start value displays the flex lines at the start of the container.
        - <strong> flex-end : </strong>The flex-end value displays the flex lines at the end of the container.
        <br>
-       <strong> syntax = .flex-container {
-  <br /> display: flex;
-  <br />height: 600px;
-  <br />flex-wrap: wrap;
-  <br /> align-content: flex-end;
+       - <strong> syntax = .flex-container {
+       -  <br /> display: flex;
+       - <br />height: 600px;
+       - <br />flex-wrap: wrap;
+      -  <br /> align-content: flex-end;
 }</strong>
     - <strong>display </strong>
     	- Specifies the type of box used for an HTML element
